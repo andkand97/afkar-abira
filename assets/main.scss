@@ -1,0 +1,50 @@
+---
+---
+@import "minima";
+
+body {
+  background: #f8f5ee;
+  color: #292821;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.wrapper {
+  max-width: 760px;
+}
+
+.site-header {
+  border-top: 4px solid #9a7656;
+  border-bottom-color: #e4ded2;
+}
+
+.site-title,
+.site-title:visited {
+  color: #292821;
+}
+
+.site-nav .page-link {
+  color: #62594d;
+}
+
+.page-content {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.post-meta {
+  color: #756e63;
+}
+
+a,
+a:visited {
+  color: #806044;
+}
+
+a:hover {
+  color: #4e3b2b;
+}
+
+.site-footer {
+  border-top-color: #e4ded2;
+  background: #f3efe6;
+}
