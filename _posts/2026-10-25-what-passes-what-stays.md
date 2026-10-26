@@ -2,6 +2,7 @@
 layout: post
 title: "What Passes, What Stays"
 date: 2026-10-25
+author: Andrew Kandil
 ---
 A thought can be brief and still leave something behind. 
 
