@@ -1,3 +1,3 @@
 # About Afkar Abira
 
-Afkar Abira (أفكار عابرة) means “passing thoughts.” This blog is a home for personal essays and intellectual exploration, written primarily in English with occasional Arabic.
+I'm Andrew Kandil. Afkar Abira (أفكار عابرة), “passing thoughts,” is my space for personal essays and intellectual exploration. I write primarily in English, with occasional Arabic, following questions across religion, politics, culture, and sports—and wherever curiosity leads.
