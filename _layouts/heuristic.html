@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<div class="heuristic-page">
+  <header class="maat-masthead">
+    <p class="maat-eyebrow">Afkar Abira <span aria-hidden="true">·</span> Heuristics</p>
+    <h1 class="maat-title">The Hall of Ma&rsquo;at</h1>
+    <p class="maat-subtitle">Notes from Khufu&rsquo;s Palace</p>
+  </header>
+
+  <article class="maat-entry">
+    <p class="maat-entry-number">Entry {{ page.entry | default: 1 }}</p>
+    <h2 class="maat-entry-title">{{ page.title | escape }}</h2>
+
+    <div class="maat-panel">
+      {{ content }}
+    </div>
+
+    {% if page.categories and page.categories.size > 0 %}
+      <footer class="maat-categories" aria-label="Categories">
+        {% for category in page.categories %}
+          {% unless forloop.first %}<span aria-hidden="true"> · </span>{% endunless %}
+          <span>{{ category | upcase | escape }}</span>
+        {% endfor %}
+      </footer>
+    {% endif %}
+  </article>
+</div>
